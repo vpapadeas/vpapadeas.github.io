@@ -152,7 +152,7 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-custom .navbar-brand {
   color: #36feb4;
-  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+  font-family: 'Arsenal', "Helvetica Neue", Helvetica, Arial, cursive;
 }
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus,
@@ -197,6 +197,13 @@ fieldset[disabled] .btn-xl.active {
   color: white;
   background-color: #fec503;
 }
+
+/*@media (max-width: 769px) {
+  header {
+    margin-top: 100px;
+  }
+}*/
+
 @media (min-width: 768px) {
   .navbar-custom {
     background-color: #222;
@@ -225,10 +232,13 @@ fieldset[disabled] .btn-xl.active {
     font-size: 1.5em;
   }
 }
+
+
 header {
-  background-image: url('../img/header-bg.jpg');
+  background-image: url('../img/staff.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
+  /*margin-top: 100px;*/
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -250,8 +260,8 @@ header .intro-text .intro-lead-in {
   margin-bottom: 25px;
 }
 header .intro-text .intro-heading {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
+  font-family: "Arsenal", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /*text-transform: uppercase;*/
   font-weight: 700;
   font-size: 50px;
   line-height: 50px;
@@ -270,8 +280,8 @@ header .intro-text .intro-heading {
     margin-bottom: 25px;
   }
   header .intro-text .intro-heading {
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
+    /*font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+    /*text-transform: uppercase;*/
     font-weight: 700;
     font-size: 75px;
     line-height: 75px;
@@ -744,4 +754,18 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #fed136;
+}
+
+
+@media (min-width: 768px) {
+  header {
+    margin-top: 100px;
+  }
+}
+
+article {
+  /*padding: 40px;*/
+  /*font-size: 130px;*/
+  padding-left: 15%;
+  padding-right: 15%;
 }
